@@ -4,5 +4,8 @@
 <h1 class="title">
   {{ section.title }}
 </h1>
-<img src="{{ get_url(path='forcepush.jpg') }}" alt="ForcePush club meeting">
+{% set image = resize_image(path = "./forcepush.jpg", width=5000, height=5000, op="fit") %}
+<img src="{{ get_url(path='forcepush.jpg') }}" alt="ForcePush club meeting"/>
+
+{{ section.content | safe }}
 {% endblock content %}

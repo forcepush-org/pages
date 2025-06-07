@@ -1,8 +1,9 @@
 +++
-title = "Welcome to Project Force Push"
+title = "Welcome to Project ForcePush"
 +++
 
-This is our social computation club.
+This is our social computation club!
 
-![Project forcepush](./forcepush.jpg)
-
+|# |Site                                                    |Description|
+|-:|:-------------------------------------------------------|:----------|
+|1 |[miniflux.forcepush.org](https://miniflux.forcepush.org)|RSS reader |
